@@ -32,7 +32,7 @@ void loop() {
   }
   unsigned long  currentMillis = millis();
   if (currentMillis - previousMillis >= interval){
-    previousMillis = curren tMillis ; 
+    previousMillis = currentMillis ; 
     if (ledcolorOrder == true){
       ledcolor = ledcolor + 1;
       if (ledcolor > 3)
